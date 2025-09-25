@@ -1,0 +1,233 @@
+Topic: Basic Python
+ 1. Download and Install Python 
+    https://www.python.org/
+
+2. The print () function
+    print() function
+    string -> series of alpha neumeric character A-Z, 0-9 " ", " "
+    numbers
+    boolean
+    variable
+Print ng string
+Haler World
+When we print out a string 
+enclose in double quotes "<string>"
+           single qoutes '<string>'
+>> print("Haler World") -> Haler World
+>> print('Haler World') -> Haler World
+>> print(24) -> 24
+>> print(35) -> 35
+>> print(kobe) -> kobe is not defined; kobe->variable;name value
+
+-Print multiple-line strings
+>>print("Shoes on, get up in the moorn'\n
+        cup of milk, let's rock and roll \n
+        king kong, kick the drum, rolling on \n
+        like a rolling stone. \n
+        sing song when I'm walking home \n
+        jump up to the top, LeBron \n
+        Dingdong, call me on my phone \n
+        Icetea and a game of ping pong")
+
+-4 printing multi strings option 2
+  triple double qoutes " " "
+  triple single qoutes ' ' '
+>> print("""line 1
+            line 2
+            line 3
+          """)
+
+-Using escape characters in printing multiple strings
+>>> print("Nagkita kami ng bff ko kahapon sabi ko sa kanya, \n
+          \"kamusta ka na? Isa't kalahating taon din tayo hindi \n
+            nagkita ah!\"")
+>> print(""" """)
+
+3. Adding Comments to codes
+>>> #this ais a coomment
+>>> #comment 1
+
+4. Python IDEs
+-Part 1
+*Eclipse
+*Sublime text
+*Visual Studio
+*Pydev
+*Pycharm -  jetbrains.com/pycharm/download community edition "open source"
+            installation -> chell all boxes
+
+-PART 2 - Open Pycharm
+
+5. Variables -> strorage values and information
+                24net, _net24_, n24net, N24net
+Syntax: variable name = value
+= -> assignment operator
+fname = "len"; print(fname) -> len
+variables values -> containers
+
+6. Data types: Numbers
+    3 Numeric Data Types:
+      - Integer or int -> whole #s 1,3,8,1000
+      - Floating point-floats -> with Decimal point 1.45,3.1,8.61115,100
+      - Complex Numbers -> whole# with imaginary # (i) a+br
+
+7. Numerical Operators MDAS
+    Addition Operators +  sum1 = x+y
+    Subtraction operators -  diff1 = x-y
+    Multiplication *    mul1 = x*y
+- python Division div1 = x/y -> division operator
+                   4 -> quotient
+  Divisor -> 4   /18 -> dividend
+                  16
+                  2 -> remainder
+
+    6.5 -> Float /
+    int div1 = x //y -> integer division whole #
+    mod1 = x % y -> modulo operator remainder 26/4 = 24r2
+
+-Exponent operator **
+  4^5
+  x=4
+  y=5
+  exp1 = 4**5
+  exp2 = x**y
+  print(exp1)  print(x**y)
+  print(exp2)  print(4**5)
+  1024
+-Numeric Operators Summary
+
+8. String Concatenation
+    fname = "Len"
+    lname = "Mofar"
+    fullname = fname + fname
+    print(fullname) -> LenMofar
+    print(fname+' '+lname) -> Len Mofar
+
+*Converting Other data types into string for concatenation
+    fname = 'Len'
+    num1 = 24
+    concat = fname +str(num1)
+    print(concat) -> Len24
+
+9. Getting User Inputs using the Input() function
+  <variable name> = input ("may tanong dito")
+  fname = input('Ano first name mo?')
+  print(fname) => Ano first name mo> len -> len
+
+10. Converting Data types
+    if iko-convert natin yung variable x natin into:
+    - An integer
+      Use: int() function
+      To convert x into an integer -> int (x)
+    - A float
+      Use: float() function
+      To convert x into a float -> float(x)
+    - A string
+      Use: str() function
+      To convert x into a string -> str(x)
+
+- x to string
+numstick = int(input(' '))
+peranya = input(' ')
+total = int(numstick)*20
+change = float(peranya) - total
+print('Total: '+str(total)+'php')
+print('Expected change:'+str(change)+'php')
+
+11. Numeric Operator Exercises
+
+12. Comparison Operators -> True or False
+    == equal to    <= less than equal
+    < less than    >= greater than equal
+    ? greater than  != not equal to
+
+-Exercise part 1
+  if int(value1) > int(value2):
+  print(' ')
+  else:
+  print(' ')
+
+if float(temp) >=37:
+
+13. Logical Operators
+    and  x and y
+    or    x or y
+    not   not x
+
+sagot =(5>3) and (10<2)
+print(sagot) -> False
+sagot =(5>3) and (10>2)
+print(sagot) -> true
+
+14. If and else-if
+
+- Pyhton fundamentals full course: for absolute beginners
+
+
+QUIZ:
+1. What is the data type of the returned input from a user provided by the input() function?
+2. What logical operator returns Tru of the result of 2 conditional statements are True?
+    Just type the name of the operator here, no need to type 'operator' word.
+3. What type of operator do we use if we want to make a logical comparison of more than 1 statement?
+4. What character do we use to indicate that the line of code is a comment and must not be executed as part of the program?
+5. What conditional operator do we use if we want to check if a variable is greater than or equal to another value?
+6. What do we use to enclose multiline strings when using the print() function?
+7. What do we use as the division operator symbol symbol?
+8. What conditional operator do we use if we compare if a value is equal to another value?
+9. What numerical data type represents a whole together with its fractional quantity?
+10. When usig the print() function, what do we use to enclose the string inside the function parantheses (choose two)?
+11. What symbol do we use to concatenate strings?
+12. What do we use as the subtraction operator symbol?
+13. What character do we use to inform python to treat the next character in a series of string as a normal character?
+14. What data type is the result of a comparison statement?
+15. What do we use as the addition operator symbol?
+16. What numerical data type is used to represent a whole number?
+17. What do we use as the exponent operator symbol?
+18. What do we use as the multiplication operator symbol?
+19. What are the different numerical data types (choose two)?
+20. What division operator symbol do we use to get only the remainder?
+21. What conditional operator do we use if we want to check if a value is not equal to another value?
+22. What logical operator returns Tru of the returned value of any of the two conditional statements are true?
+23. What do you call the symbol that we use to link a variable name to its corresponding value?
+24. What do you call the literal name that we create to store values and information in our Python program?
+25. What do you call the python command line interpreter that is included in the pyhton installation taht we can use to execute codes?
+26. What type of operator do we use to compare 2 or more variable?
+27. What division operator symbol do we use to get the quotient without the remainder?
+
+
+
+
+
+
+
+Answers:
+1. String
+2. AND
+3. Logical
+4. // ; #
+5. >= ;OR  ||
+6. triple quotes
+7. /
+8. ==
+9. float
+10. single or double qoutes
+11. +
+12. -
+13. \ escaping
+14. Boolean
+15. +
+16. Integer
+17. **
+18. *
+19. integer, float, numbers
+20. %
+21. /=
+22. OR
+23. assignment operator
+24. variables
+25. idle
+26. comparison operator
+27. //
+
+
+
